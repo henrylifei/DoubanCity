@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:id="@android:id/tabhost" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TabWidget  
+        android:id="@android:id/tabs"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:visibility="gone" >  
+    </TabWidget>  
+    <!-- 注意Id -->  
+  
+    <FrameLayout  
+        android:id="@android:id/tabcontent"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent" >  
+    </FrameLayout>  
+  
+    <RadioGroup  
+        android:id="@+id/rg_main_btns"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:layout_gravity="bottom"  
+        android:gravity="center_vertical"  
+        android:orientation="horizontal" >  
+  
+        <!-- android:drawableTop="@drawable/at_icon" 这句的意思是在文字上面放入图片 -->  
+  
+        <RadioButton  
+            android:id="@+id/first"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:text="@string/tab1">  
+        </RadioButton>  
+  
+        <RadioButton  
+            android:id="@+id/second" 
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:text="@string/tab2">   
+        </RadioButton>  
+  
+        <RadioButton  
+            android:id="@+id/third"
+            android:layout_width="wrap_content"  
+           android:layout_height="wrap_content"  
+           android:text="@string/tab3">   
+        </RadioButton>  
+        
+  
+   </RadioGroup>  
+  
+</TabHost>  

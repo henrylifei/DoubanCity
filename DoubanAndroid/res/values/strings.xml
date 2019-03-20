@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">请重启程序</string>
+    <string name="app_name">DoubanAndroid</string>
+	<string name="tab1">同城热门</string>
+	<string name="tab2">分类浏览</string>
+	<string name="tab3">与我相关</string>
+	<string name="chooseCity">选择城市</string>
+</resources>
